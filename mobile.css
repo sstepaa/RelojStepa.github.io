@@ -1,10 +1,26 @@
 @media (max-width : 575px){
     .main{
         flex-direction: column;
+        flex-wrap: nowrap;
+        
 
         max-width: 33rem;
         width: 100%;
         height: 30rem;
+    }
+
+    .main__hours{
+        font-size: 8rem;
+        margin: 0;
+
+    }
+    .main__min{
+        font-size: 8rem;
+        margin: 0;
+    }
+    .main__seconds{
+        font-size: 8rem;
+        margin: 0;
     }
 
     .cabecera{
@@ -17,7 +33,6 @@
         
     }
     .text{
-        
         font-size: 3rem;
     }
 }

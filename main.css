@@ -75,10 +75,11 @@ body{
     flex-wrap: wrap;
     
 }
-@media (max-width : 880px){
+@media (max-width : 850px){
     .main{
         max-width: 40rem;
         width: 100%;
+        flex-wrap: nowrap;
     }
 
 }
@@ -129,9 +130,8 @@ body{
     text-align: center;
     align-self: center;
     justify-items: center; */
-} 
 
-@media (max-width : 880px){
+@media (max-width : 850px){
     .main__hours{
         font-size: 10rem;
         align-self: center;
